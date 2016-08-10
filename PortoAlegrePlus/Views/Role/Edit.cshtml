@@ -1,0 +1,29 @@
+﻿@model Microsoft.AspNet.Identity.EntityFramework.IdentityRole
+
+@{
+    ViewBag.Title = "Grupos de Usuários";
+}
+
+<div class="container body-content">
+    <h2>Renomear</h2>
+
+    @Html.ActionLink("Grupos de Usuários", "Index", null, new { @class = "btn btn-success" }) @Html.ActionLink("Gerenciar Grupo de Usuários", "ManageUserRoles", null, new { @class = "btn btn-success" })
+    <hr />
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.Id)
+
+        <form>
+            <div class="form-group">
+                <label>Nome do Grupo de Usuários</label>
+                @Html.TextBoxFor(model => model.Name, null, new { @class = "form-control" })
+            </div>
+            <button type="submit" class="btn btn-success">Enviar</button>
+        </form>
+    }
+
+</div>
+

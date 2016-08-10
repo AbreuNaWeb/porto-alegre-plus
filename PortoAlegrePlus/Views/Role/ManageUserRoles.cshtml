@@ -1,0 +1,96 @@
+﻿@{
+    ViewBag.Title = "Grupo de Usuários";
+}
+
+<div class="container body-content">
+    <h2>Gerenciar Grupo de Usuários</h2>
+
+    @Html.ActionLink("Grupos de Usuários", "Index", null, new { @class = "btn btn-success" }) @Html.ActionLink("Criar Grupo de Usuários", "Create", null, new { @class = "btn btn-success" })
+    <hr />
+
+    <h4>Adicionar usuário para um Grupo</h4>
+
+    @using (Html.BeginForm("RoleAddToUser", "Role"))
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+
+        <form class="form-inline">
+            <div class="form-group">
+                <label>Email</label>
+                @Html.TextBox("UserName", null, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                @Html.DropDownList("RoleName", (IEnumerable<SelectListItem>)ViewBag.Roles, "Selecione ...", new { @class = "btn btn-default dropdown-toggle" })
+            </div>
+            <button type="submit" class="btn btn-success">Adicionar</button>
+        </form>
+
+        @Html.Raw(TempData["add"])
+    }
+
+    <hr />
+    <h4>Grupos que o usuário pertence</h4>
+    @using (Html.BeginForm("GetRoles", "Role"))
+            {
+        @Html.AntiForgeryToken()
+
+        <form>
+            <div class="form-group">
+                <label>E-mail</label>
+                @Html.TextBox("UserName", null, new { @class = "form-control" })
+            </div>
+
+            <button type="submit" class="btn btn-success">Pesquisar</button>
+        </form>
+
+        @Html.Raw(TempData["get"])
+    }
+
+    <br />
+
+    @if (ViewBag.RolesForThisUser != null)
+    {
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                <h3 class="panel-title">Grupos</h3>
+            </div>
+            <div class="panel-body">
+                <ol>
+                    @foreach (string s in ViewBag.RolesForThisUser)
+                    {
+                        <li>@s</li>
+                    }
+                </ol>
+            </div>
+        </div>
+    }
+
+    <hr />
+    <h4>Remover usuário de um Grupo</h4>
+
+    @using (Html.BeginForm("DeleteRoleForUser", "Role"))
+            {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+
+        <form>
+            <div class="form-group">
+                <label>E-mail</label>
+                @Html.TextBox("UserName", null, new { @class = "form-control" })
+            </div>
+
+            <div class="form-group">
+                @Html.DropDownList("RoleName", (IEnumerable<SelectListItem>)ViewBag.Roles, "Selecione ...", new { @class = "btn btn-default dropdown-toggle" })
+            </div>
+
+            <button type="submit" class="btn btn-success">Remover</button>
+        </form>
+
+        @Html.Raw(TempData["delete"])
+
+    }
+</div>
+
+
+

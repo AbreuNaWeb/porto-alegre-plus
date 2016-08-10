@@ -1,0 +1,127 @@
+﻿@model IEnumerable<PortoAlegrePlus.Models.Reclamacao>
+
+@{
+    ViewBag.Title = "Reclamações";
+}
+
+<div class="container body-content">
+    <h2>Minhas Reclamações</h2>
+    <p>
+        @Html.ActionLink("Abrir Reclamação", "Create", null, new { @class = "btn btn-success btn-lg" })
+    </p>
+
+    @using (Html.BeginForm())
+    {
+
+        <div class="table-responsive" style="padding-top:20px">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Categoria</th>
+                        <th>Bairro</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            @Html.DropDownList("CategoriaSelecionada", (SelectList)ViewBag.categoriaSelecionada, "Todos", new { @class = "btn btn-default dropdown-toggle btn-sm" })
+                            <input type="submit" class="btn btn-info btn-sm" value="Filtrar" />
+                        </td>
+                        <td class="col-md-4">
+                            @Html.DropDownList("BairroSelecionado", (SelectList)ViewBag.bairroSelecionado, "Todos", new { @class = "btn btn-default dropdown-toggle btn-sm" })
+                            <input type="submit" class="btn btn-info btn-sm" value="Filtrar" />
+                        </td>
+                        <td class="col-md-12">
+                            <select name="statusSelecionado" class="btn btn-default dropdown-toggle btn-sm">
+                                <option value="todos">Todos</option>
+                                <option value="aberta">Aberta</option>
+                                <option value="resolvida">Resolvida</option>
+                                <option value="encerrada">Encerrada</option>
+                            </select>
+                            <input type="submit" class="btn btn-info btn-sm" value="Filtrar" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>De</th>
+                        <th>Até</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="col-md-1">
+                            <input type="date" class="btn btn-default btn-sm" name="DataInicio" value="">
+                        </td>
+                        <td class="col-md-12">
+                            <input type="date" class="btn btn-default btn-sm" name="DataFim" value="">
+                            <input type="submit" class="btn btn-info btn-sm" value="Filtrar" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    }
+
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr class="danger">
+                    <th>
+                        @Html.DisplayNameFor(model => model.DataReclamacao)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Categoria.Nome)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Titulo)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Bairro.Nome)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Status)
+                    </th>
+                    <th>
+
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DataReclamacao)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Categoria.Nome)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Titulo)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Bairro.Nome)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Status)
+                        </td>
+                        <td>
+                            @if (item.Status != "Encerrada")
+                            {
+                                @Html.ActionLink("Editar", "Edit", new { id = item.ReclamacaoID }, new { @class = "label label-success" })
+                            }
+                            | @Html.ActionLink("Detalhes", "Details", new { id = item.ReclamacaoID }, new { @class = "label label-info" }) |
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

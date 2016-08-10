@@ -1,0 +1,63 @@
+﻿@model PortoAlegrePlus.Models.Comentario
+
+@{
+    ViewBag.Title = "Comentário";
+}
+
+<div class="container body-content">
+    <h2>Criar Comentário</h2>
+
+    @using (Html.BeginForm("Create", "Comentario",
+                                FormMethod.Post,
+                                new { enctype = "multipart/form-data" }))
+
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(model => Model.ReclamacaoID)
+
+        <div class="form-horizontal">
+            <h4>Comentário</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Conteudo, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-6">
+                    @Html.EditorFor(model => model.Conteudo, new { htmlAttributes = new { @class = "form-control", rows = "9" } })
+                    @Html.ValidationMessageFor(model => model.Conteudo, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.ImageFile, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-6">
+                    <input type="file" name="Image" />
+                </div>
+            </div>
+
+            @if (!(User.IsInRole("Contas Oficiais")))
+            {
+                <div class="form-group">
+                    @Html.LabelFor(model => model.StatusUsuario, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        <div class="checkbox-inline">
+                            @Html.EditorFor(model => model.StatusUsuario)
+                            @Html.ValidationMessageFor(model => model.StatusUsuario, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+            }
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Enviar" class="btn btn-success" />
+                    @Html.ActionLink("Voltar", "Index", null, new { @class = "btn btn-success" })
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

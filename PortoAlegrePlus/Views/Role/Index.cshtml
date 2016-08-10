@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Microsoft.AspNet.Identity.EntityFramework.IdentityRole>
+@{
+    ViewBag.Title = "Grupos de Usuários";
+}
+
+<div class="container body-content">
+    <h2>Grupos de Usuários </h2>
+
+    @Html.ActionLink("Criar Grupo de Usuários", "Create", null, new { @class = "btn btn-success" }) @Html.ActionLink("Gerenciar Grupo de Usuários", "ManageUserRoles", null, new { @class = "btn btn-success" })
+    <hr />
+    <div>
+        @foreach (var role in Model)
+        {
+            <table class="table">
+                <tr>
+                    <td>
+                        <strong>@role.Name | </strong> @Html.ActionLink("Renomear", "Edit", new { roleName = @role.Name }, new { @class = "btn btn-info btn-xs" }) | <span onclick="return confirm('Tem certeza que você deseja deletar?')"><a class="btn btn-info btn-xs" href="/Role/Delete?RoleName=@role.Name">Excluir</a></span> |
+                    </td>
+
+                </tr>
+            </table>
+        }
+    </div>
+</div>

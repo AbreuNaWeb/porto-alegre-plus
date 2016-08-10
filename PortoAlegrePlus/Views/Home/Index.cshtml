@@ -1,0 +1,52 @@
+﻿@{
+    ViewBag.Title = "Página Inicial";
+}
+
+<div id="myCarousel" class="carousel slide">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="~/Imagens/01.jpg">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Dependemos de você para fazer uma Porto Alegre melhor.</h1>
+                    <p>
+                        @Html.ActionLink("Entrar", "Login", "Account", null, new { @class = "btn btn-warning btn-lg" })
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/Imagens/02.jpg">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Estamos de olho na fiscalização, em você, e principalmente, de olho na cidade. </h1>
+                    <p>
+                        @Html.ActionLink("Entrar", "Login", "Account", null, new { @class = "btn btn-warning btn-lg" })
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/Imagens/03.jpg">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>... Então seja um cidadão transparente.</h1>
+                    <p>
+                        @Html.ActionLink("Entrar", "Login", "Account", null, new { @class = "btn btn-warning btn-lg" })
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="icon-next"></span>
+    </a>
+</div>

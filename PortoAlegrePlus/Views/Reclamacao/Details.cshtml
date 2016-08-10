@@ -1,0 +1,133 @@
+﻿@model PortoAlegrePlus.Models.Reclamacao
+
+@{
+    ViewBag.Title = "Reclamação";
+}
+
+<div class="container body-content">
+    <h2>Detalhes</h2>
+
+    <div>
+        <h4>Reclamação</h4>
+        <hr />
+
+        <div class="row">
+            <div class="col-lg-5">
+
+                <dl class="dl-horizontal">
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Titulo)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Titulo)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.UsuarioID)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.UsuarioID)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Categoria.Nome)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Categoria.Nome)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Descricao)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Descricao)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.DataReclamacao)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.DataReclamacao)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Bairro.Nome)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Bairro.Nome)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Endereco)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Endereco)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Status)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Status)
+                    </dd>
+                </dl>
+            </div>
+            <div class="col-lg-5">
+                <img width="300" src="@Url.Action("GetImage", "Reclamacao", new {id=Model.ReclamacaoID})" />
+            </div>
+        </div>
+    </div>
+
+    <h2>Comentários</h2>
+
+    @foreach (var item in Model.Comentarios)
+    {
+        <section class="comment-list">
+            <article class="row">
+                <div class="col-md-10 col-sm-10">
+                    <div class="panel panel-default arrow left">
+                        <div class="panel-body">
+                            <header class="text-left">
+                                <div class="comment-user"><i class="fa fa-user"></i> @item.UserNameID</div>
+                                <time class="comment-date"><i class="fa fa-clock-o"></i> @item.DataComentario.ToShortDateString()</time>
+                            </header>
+                            <div class="comment-post">
+                                <p>
+                                    @item.Conteudo
+                                </p>
+                                @if (item.ImageFile != null)
+                                {
+                                    <br />
+                                    <img width="250" src="@Url.Action("GetImage", "Comentario", new { id = item.ComentarioID })" />
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    }
+
+    <br />
+
+    @if (!(User.IsInRole("Admin")) & Model.Status != "Encerrada")
+    {
+
+        @Html.ActionLink("Adicionar Comentário", "CriarComentario", new { id = Model.ReclamacaoID }, new { @class = "btn btn-success" })<label style="padding:4px"></label>
+        if (User.Identity.Name == Model.UsuarioID)
+        {
+            @Html.ActionLink("Editar", "Edit", new { id = Model.ReclamacaoID }, new { @class = "btn btn-success" })<label style="padding:4px"></label>
+        }
+    }
+
+    @Html.ActionLink("Voltar", "Index", null, new { @class = "btn btn-success" })
+
+</div>

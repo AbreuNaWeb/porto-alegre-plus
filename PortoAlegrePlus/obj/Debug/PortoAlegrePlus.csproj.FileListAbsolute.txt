@@ -1,0 +1,165 @@
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\roslyn\csc.exe
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\roslyn\vbc.exe
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\roslyn\VBCSCompiler.exe
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Antlr3.Runtime.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\EntityFramework.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\EntityFramework.SqlServer.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.AI.Web.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.Owin.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.Owin.Security.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Newtonsoft.Json.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Owin.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\System.Web.Helpers.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\System.Web.Mvc.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\System.Web.Optimization.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\System.Web.Razor.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\System.Web.WebPages.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\System.Web.WebPages.Razor.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\WebGrease.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\EntityFramework.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\EntityFramework.SqlServer.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.AI.Web.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\System.Web.Helpers.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\System.Web.Mvc.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\System.Web.Optimization.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\System.Web.Razor.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\System.Web.WebPages.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\System.Web.WebPages.Razor.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Antlr3.Runtime.pdb
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Newtonsoft.Json.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.Owin.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.Owin.Security.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\obj\Debug\PortoAlegrePlus.csproj.GenerateResource.Cache
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\obj\Debug\PortoAlegrePlus.Migrations.InitialCreate.resources
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\obj\Debug\PortoAlegrePlus.Migrations.Profile.resources
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\PortoAlegrePlus.dll.config
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\PortoAlegrePlus.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\bin\PortoAlegrePlus.pdb
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\obj\Debug\PortoAlegrePlus.dll
+C:\Users\Abreu\Desktop\V5.0 - Requisitos Finalizados + Início do Design\OlhoNaCidade\OlhoNaCidade\obj\Debug\PortoAlegrePlus.pdb
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\roslyn\csc.exe
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\roslyn\vbc.exe
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\roslyn\VBCSCompiler.exe
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\PortoAlegrePlus.dll.config
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\PortoAlegrePlus.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\PortoAlegrePlus.pdb
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Antlr3.Runtime.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\EntityFramework.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\EntityFramework.SqlServer.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.AI.Web.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.Owin.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.Owin.Security.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Newtonsoft.Json.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Owin.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\System.Web.Helpers.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\System.Web.Mvc.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\System.Web.Optimization.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\System.Web.Razor.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\System.Web.WebPages.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\System.Web.WebPages.Razor.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\WebGrease.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\EntityFramework.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\EntityFramework.SqlServer.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.AI.Web.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\System.Web.Helpers.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\System.Web.Mvc.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\System.Web.Optimization.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\System.Web.Razor.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\System.Web.WebPages.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\System.Web.WebPages.Razor.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Antlr3.Runtime.pdb
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Newtonsoft.Json.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.Owin.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.Owin.Security.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\obj\Debug\PortoAlegrePlus.Migrations.Profile.resources
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\obj\Debug\PortoAlegrePlus.csproj.GenerateResource.Cache
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\obj\Debug\PortoAlegrePlus.dll
+C:\Users\Abreu\Desktop\PortoAlegrePlus\PortoAlegrePlus\obj\Debug\PortoAlegrePlus.pdb

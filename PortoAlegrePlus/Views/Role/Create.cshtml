@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Grupos de Usuários";
+}
+
+<div class="container body-content">
+    <h2>Criar Grupo de Usuários</h2>
+
+    @Html.ActionLink("Grupos de Usuários", "Index", null, new { @class = "btn btn-success" })  @Html.ActionLink("Gerenciar Grupo de Usuários", "ManageUserRoles", null, new { @class = "btn btn-success" })
+
+    <hr />
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+
+        <form>
+            <div class="form-group">
+                <label>Nome do Grupo de Usuários</label>
+                @Html.TextBox("RoleName", null, new { @class = "form-control" })
+            </div>
+            <button type="submit" class="btn btn-success">Enviar</button>
+        </form>
+    }
+
+    <p>
+        @ViewBag.ResultMessage
+    </p>
+</div>

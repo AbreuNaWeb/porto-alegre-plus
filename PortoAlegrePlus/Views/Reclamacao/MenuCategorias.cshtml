@@ -1,0 +1,85 @@
+﻿@model PortoAlegrePlus.Models.Categoria
+
+@{
+    ViewBag.Title = "Categoria";
+}
+
+<div class="container body-content">
+    <h2>Categoria</h2>
+
+    <div>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Nome)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Nome)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Descricao)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Descricao)
+            </dd>
+
+        </dl>
+    </div>
+    <div>
+    </div>
+
+    <div class="table-responsive" style="padding-top:20px">
+        <table class="table">
+            <thead>
+                <tr class="danger">
+                    <th>
+                        Data
+                    </th>
+                    <th>
+                        Categoria
+                    </th>
+                    <th>
+                        Título
+                    </th>
+                    <th>
+                        Nome
+                    </th>
+                    <th>
+                        Status
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Reclamacoes)
+            {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DataReclamacao)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Categoria.Nome)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Titulo)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Bairro.Nome)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Status)
+                        </td>
+                        <td>
+                            | @Html.ActionLink("Detalhes", "Details", new { id = item.ReclamacaoID }, new { @class = "label label-info" }) |
+                        </td>
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+    </div>
+</div>
+

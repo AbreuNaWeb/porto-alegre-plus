@@ -1,0 +1,81 @@
+﻿@model IEnumerable<PortoAlegrePlus.Models.Informacao>
+
+@{
+    ViewBag.Title = "Informações";
+}
+
+<h3><span class="label label-success">Dados por Bairro</span></h3>
+
+@using (Html.BeginForm())
+{
+    <div class="table-responsive" style="padding-bottom:20px">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>De</th>
+                    <th>Até</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <input type="date" class="btn btn-default btn-sm" name="dataInicioBairro" value="">
+                    </td>
+                    <td class="col-md-4">
+                        <input type="date" class="btn btn-default btn-sm" name="dataFimBairro" value="">
+                    </td>
+                    <td class="col-md-12">
+                        <select name="statusBairro" class="btn btn-default btn-sm">
+                            <option value="filtro">Escolher...</option>
+                            <option value="Aberta">Aberta</option>
+                            <option value="Resolvida">Resolvida</option>
+                            <option value="Encerrada">Encerrada</option>
+                        </select>
+                        <input type="submit" class="btn btn-info btn-sm" value="Gerar">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+}
+
+<div class="table-responsive">
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr class="success">
+                <th>
+                    @Html.DisplayNameFor(model => model.Nome)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Quantidade)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.MediaComentarios)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PercentualStatus)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nome)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Quantidade)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MediaComentarios)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PercentualStatus) %
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
